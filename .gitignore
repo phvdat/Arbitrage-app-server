@@ -1,0 +1,58 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pkl
+
+# Virtual environment
+venv/
+env/
+.venv/
+
+# FastAPI / Uvicorn
+*.log
+
+# Environment variables
+.env
+
+# IDE / Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# macOS
+.DS_Store
+
+# Bytecode
+*.pyc
+*.pyo
+*.pyd
+
+# Cache folders
+.cache/
+.pytest_cache/
+.mypy_cache/
+
+# Build
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Pipenv / Poetry
+Pipfile.lock
+poetry.lock
+
+# Coverage
+htmlcov/
+.coverage
+.coverage.*
+.cache
+
+# PyCharm
+*.iml
+
+# Editor backups
+*~
